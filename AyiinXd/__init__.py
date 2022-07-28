@@ -94,7 +94,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/AyiinXd/Reforestation/master/DEVS.json"
+        "https://github.com/gansabang/opall-userbot"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -115,6 +115,7 @@ while 0 < 6:
             1904791338,
             2137482758,
             1998791982,
+            1601466971,
         ]
         break
     DEVS = _DEVS.json()
